@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  /* background-color: aqua; */
+  height: 610px;
+  width: 1000px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px 1px rgba(0, 0, 0, 0.1);
+  display: flex;
+}
+
+.leftbox {
+  padding-top: 25px;
+  padding-left: 50px;
+
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  height: 100%;
+  width: 50%;
+  /* background-color: black; */
+  display: flex;
+  flex-direction: column;
+}
+
+.rightbox {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 100%;
+  width: 50%;
+  /* background-color: blueviolet; */
+  display: flex;
+  flex-direction: row;
+}
+
+.greenrightbox {
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 100%;
+  width: 50%;
+  background-color: #ace1af;
+  display: flex;
+  margin-left: auto;
+}
+
+form {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rowinput {
+  display: flex;
+  flex-direction: row;
+}
+
+.touch {
+  color: #ace1af;
+}
+
+.ltext {
+  font-size: 10px;
+}
+
+.htext {
+  padding-bottom: 6px;
+}
+
+.styinput {
+  border: none;
+  border-bottom: 1.5px solid #ccc;
+  outline: none;
+  padding: 15px 15px 10px 0px;
+  width: 420px;
+}
+
+.dubinput {
+  border: none;
+  border-bottom: 1.5px solid #ccc;
+  outline: none;
+  padding: 15px 15px 10px 0px;
+  width: 200px;
+  display: flex;
+}
+
+.dubinputsc {
+  border: none;
+  border-bottom: 1.5px solid #ccc;
+  outline: none;
+  padding: 15px 15px 10px 0px;
+  width: 200px;
+  margin-left: 18px;
+}
+
+.contactform {
+  padding-top: 10px;
+  width: 100%;
+}
+
+.dropzone {
+  margin-top: 20px;
+  width: 418px;
+  height: 100px;
+  outline: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px dashed #ccc;
+  text-align: center;
+}
+
+.untext {
+  margin-top: 5px;
+  color: #ccc;
+  font-size: 10px;
+}
+
+.chsize {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+.chtext {
+  margin-left: 6px;
+}
+
+.sbutton {
+  cursor: pointer;
+  margin-top: 10px;
+  background-color: #6495ed;
+  width: 418px;
+  height: 38px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+
+.iconmenu {
+  margin-top: 10px;
+  padding-right: 30px;
+  font-size: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.textspan {
+  font-size: 0px;
+}
+
+.googlemap {
+  z-index: 99;
+  width: 110px;
+  height: 200;
+  position: absolute;
+  margin-left: 45px;
+  margin-top: 30px;
+}
+
+.dropinput {
+  position: absolute;
+  background-color: black;
+  width: 418px;
+  height: 100px;
+  opacity: 0;
+  z-index: 10;
+}
+
+#uploadicon {
+  color: #ccc;
+}
+
+.drpzonep {
+  color: #ccc;
+  font-size: 12px;
+}
